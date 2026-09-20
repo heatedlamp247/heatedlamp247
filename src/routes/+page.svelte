@@ -44,6 +44,7 @@
 function updateScale() {
   const designWidth = 1920;
   scale = window.innerWidth / designWidth;
+  isMobile = window.innerWidth <768;
 }
 
   const navigationSound = new Howl({
