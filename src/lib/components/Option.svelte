@@ -74,8 +74,8 @@
 </script>
 
 <div class="relative pointer-events-none" style:z-index={isSelected ? 5 : option.zIndex}>
-  <button
-  class="absolute left-0 top-1/2 -translate-y-1/2 w-full h-16 outline-none pointer-events-auto"
+ <button
+  class="absolute left-0 top-1/2 -translate-y-1/2 w-[500px] h-16 outline-none pointer-events-auto"
   onmouseover={onSelect}
   onfocus={onSelect}
   onclick={onConfirm}
