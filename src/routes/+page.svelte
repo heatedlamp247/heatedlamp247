@@ -158,7 +158,7 @@ onMount(() => {
   {#if showMobileNotice}
   <div class="fixed inset-0 z-[60] bg-black/90 flex flex-col items-center justify-center gap-6 px-8 text-center">
     <p class="text-white text-lg max-w-md">
-      Currently the website is in a barebones state on mobile. Music, SFX, and live background do not work on mobile, and there may be scaling issues. For the best experience use a laptop/pc. 
+      This websites state on mobile currently has missing features. Music, SFX, and live background may not work on mobile, as well scaling issues. For the best experience use a laptop/pc. 
     </p>
     <button onclick={() => showMobileNotice = false} class="text-xl px-6 py-2 border border-white text-white rounded-md">
       I understand
